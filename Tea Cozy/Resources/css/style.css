@@ -1,0 +1,170 @@
+body {
+  font-family: helvetica;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  }
+
+/* Header section */
+
+header {
+  display: flex;
+  position:fixed;
+  height: 69px;
+  width: 100%;
+  top: 0;
+  background: black;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  flex-direction: row;
+  padding: 10px;
+  align-content: space-between;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 0;
+}
+
+nav {
+  margin-right: 0;
+  position: fixed;
+  right: 10px
+
+}
+
+span {
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+a:link, a:visited {
+  color: seashell;
+}
+
+/* content section */
+
+img {
+  display: block;
+  margin: auto;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.mission {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.missiontext {
+  display: block;
+  text-align: center;
+  width: 1200px;
+  height:auto;
+  background: black;
+  margin: auto;
+
+}
+
+
+.tea {
+  display: flex;
+  width: 1000px;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.teatitle {
+  display: block;
+  text-align: center;
+  padding: 0;
+  height: auto;
+  }
+
+.line1 {
+  display: flex;
+  flex-direction: row;
+  width: 1000px;
+  align-content: space-around;
+}
+
+.line2 {
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  justify-content: center;
+}
+
+.photo {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+
+.line1 {
+  flex-direction: row;
+}
+
+.imgtitle {
+  display: flex;
+  justify-content: center;
+  margin:0 0 10px 0;
+}
+
+.Locations {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: 1200px;
+  height: 700px;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center
+}
+
+
+.columns {
+  display: flex;
+  padding: 0;
+  margin: 15px;
+
+
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  text-align: center;
+  margin: auto 20px;
+  align-content: space-between;
+  opacity: 1;
+  background: black;
+
+}
+
+/* footer section */
+
+
+footer {
+  display: block;
+  text-align: center;
+  width: auto 0;
+}
+
+#copyright {
+  padding-left: 20px;
+  text-align: left;
+}
